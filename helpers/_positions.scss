@@ -1,0 +1,22 @@
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.centered {
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.above {
+  top: 0; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.below {
+  bottom: -3%; left: 50%;
+  transform: translate(-50%, -50%);
+}

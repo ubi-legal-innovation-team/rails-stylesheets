@@ -1,0 +1,19 @@
+footer#legallab-footer {
+  width: 100%;
+  padding: 10px 25px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  .legallab-logo {
+    width: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    strong {
+      color: #fff;
+    }
+    svg {
+      margin-top: .25rem;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+.dropdown-toggled::-webkit-scrollbar {
+  width: .25em;
+}
+
+.dropdown-toggled::-webkit-scrollbar-thumb, {
+  background-color: $strong-grey;
+  outline: 1px solid $light-grey;
+  border-radius: 25px;
+}

@@ -1,0 +1,45 @@
+.table-scroll {
+  overflow: auto;
+}
+
+table {
+  width:100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  td, th {
+    padding:8px 12px;
+    font-size:.8rem;
+  }
+}
+
+tbody {
+  tr:nth-child(odd) {
+    background-color: $magic-grey;
+  }
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+}
+
+ // --------------------------------------
+// 👇👇     HTML TABLE EXAMPLE     👇👇
+// --------------------------------------
+
+  // <div class="table-scroll">
+  //   <table class="text-cent">
+  //     <thead>
+  //       <tr>
+  //         <th>Header</th>
+  //         <th class="text-strong-grey">Actions</th>
+  //       </tr>
+  //     </thead>
+
+  //     <tbody>
+  //       <tr>
+  //         <td>content</td>
+  //         <td>actions</td>
+  //       </tr>
+  //     </tbody>
+  //   </table>
+  // </div>

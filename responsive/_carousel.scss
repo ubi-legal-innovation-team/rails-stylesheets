@@ -1,0 +1,35 @@
+
+@media(max-width:1007px){
+  .carousel-right {
+    right:150px !important;
+  }
+  .carousel-left {
+    left:150px !important;
+  }
+
+  .carousel {
+    ul.slides {
+      li {
+        padding:0 150px
+      }
+    }
+  }
+}
+
+
+@media(max-width:640px){
+  .carousel-right {
+    right:25px !important;
+  }
+  .carousel-left {
+    left:25px !important;
+  }
+
+  .carousel {
+    ul.slides {
+      li {
+        padding:0;
+      }
+    }
+  }
+}

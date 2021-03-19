@@ -1,0 +1,20 @@
+.pagination {
+  justify-content:flex-end;
+  margin:10px;
+
+  .page-link {
+    color:$black;
+    border:none;
+    padding: 0.25rem 0.5rem;
+    border-radius:3px;
+
+    &:hover {
+      background-color:$light-grey;
+    }
+  }
+
+  .page-item.active .page-link {
+    color:#fff;
+    background-color:$strong-grey;
+  }
+}

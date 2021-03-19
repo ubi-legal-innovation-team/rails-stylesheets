@@ -1,0 +1,130 @@
+
+.open-modal {
+  cursor:pointer;
+}
+
+.close-modal {
+  cursor: pointer;
+  &.top-right {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+.modal-toggled {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:100;
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $modal-black;
+  visibility: hidden;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: ease-in;
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.modal-container {
+  width:500px;
+  height:500px;
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.5);
+  transition-property: all;
+  transition-duration:.2s;
+  transition-timing-function: ease-in;
+  &.active{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  &.black {
+    background-color: #000;
+  }
+  &.white {
+    background-color: #fff;
+  }
+  &.p-15 {
+    padding:15px;
+  }
+  &.p-25{
+    padding:25px;
+  }
+  &.border-10 {
+    border-radius:10px;
+  }
+  &.border-25{
+    border-radius:25px;
+  }
+}
+
+.modal-headers {
+  &.p-25-100 {
+    padding: 25px 100px;
+  }
+  &.box-shadow {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+  }
+  h1 {
+    // margin:0;
+  }
+}
+
+.modal-content {
+  height:max-content;
+  p {
+    color: $strong-black;
+  }
+  h1 {
+    color: $strong-black;
+  }
+  h3 {
+    color: $strong-black;
+    margin: 50px 0 1.2rem 0;
+  }
+  h5 {
+    color: #000;
+    margin: 40px 0 1.2rem 0;
+  }
+}
+
+.modal-links {
+  height:max-content;
+  color:$strong-black;
+  font-size:1.4rem;
+}
+
+
+// --------------------------------------
+// 👇👇     HTML MODAL EXAMPLE     👇👇
+// --------------------------------------
+
+// <span class="open-modal YOUR_ID">click to open modal</span>
+
+// <div id="YOUR_ID" class="modal-toggled">
+//   <div class="modal-container flex-col-bet-cent white p-10 border-25">
+//     <div class="modal-headers">
+//       <h1>Hello Ubisoft</h1>
+//     </div>
+
+//     <div class="modal-content h-max flex-col-cent">
+//       <p>Ubisoft is a French video game development, publishing and distribution company</p>
+
+//     <div class="modal-links">
+//       <span class="close-modal YOUR_ID">click to close the modal</span>
+//     </div>
+//     </div>
+//   </div>
+// </div>

@@ -1,0 +1,27 @@
+input[type="email"]:hover, input[type="email"]:active, input[type="email"]:focus,
+input[type="password"]:hover, input[type="password"]:active, input[type="password"]:focus,
+input[type="text"]:hover, input[type="text"]:active, input[type="text"]:focus,
+input[type="button"]:hover, input[type="button"]:active, input[type="button"]:focus,
+textarea:hover, textarea:active, textarea:focus,
+select
+ {
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+input[type="submit"] {
+  border:none;
+}
+
+.error-message {
+  color:$red !important;
+  font-size:.8rem !important;
+}
+
+.border-red {
+  border: 1px solid $red !important;
+  border-radius:5px !important;
+}
+
+form.DOM_validation-form {}

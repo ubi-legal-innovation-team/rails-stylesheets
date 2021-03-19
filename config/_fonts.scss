@@ -1,0 +1,23 @@
+@font-face {
+   font-family: 'Ubisoft bold';
+   src: font-url('UbisoftSans-Bold.ttf');
+}
+
+@font-face {
+   font-family: 'Ubisoft regular';
+   src: font-url('UbisoftSans-Regular.ttf');
+}
+
+
+h1, h2, h3, h4, h5, h6, button, input[type="submit"], strong, .strong {
+  font-family: 'Ubisoft bold';
+}
+
+span, label, p, a, ul, li, tbody, u, thead,
+input[type="text"],
+input[type="radio"],
+input[type="checkbox"],
+textarea,
+select {
+  font-family: 'Ubisoft regular';
+}

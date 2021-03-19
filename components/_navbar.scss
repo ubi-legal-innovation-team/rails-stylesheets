@@ -1,0 +1,64 @@
+
+nav#legallab-navbar {
+  width: 100%;
+  height:60px;
+  padding: 10px 50px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  .legallab-logo {
+    width: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#fff;
+  }
+
+  // .legallab-menu {
+  //   width: 800px;
+  //   margin: auto;
+  //   ul.navbar-ul {
+  //     display: flex;
+  //     justify-content: space-evenly;
+  //     border: none;
+  //     li {
+  //       cursor: pointer;
+  //       color: #fff;
+  //       display: inline;
+  //     }
+  //   }
+  // }
+
+  #user_nav, #user_notifications {
+    border-radius:100%;
+    padding:8px 10px;
+    &.active {
+      background-color: $black;
+    }
+  }
+
+  span#notifications_count {
+    position:absolute;
+    top: 0;
+    font-size: .7rem;
+      &.red {
+      background-color:$red;
+      color:#fff;
+      border-radius:25px;
+      padding:1px 8px 3px 8px;
+    }
+  }
+
+  ul#notifications li {
+    &.notification {
+      color:$black;
+      .unread {
+        background-color:$red;
+        width:10px;
+        height:10px;
+        border-radius:100%;
+      }
+    }
+  }
+}
