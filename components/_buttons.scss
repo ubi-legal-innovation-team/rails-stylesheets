@@ -1,9 +1,11 @@
-
 button {
   border: none;
+  cursor:pointer;
   &:active, &:focus {
     outline:none;
   }
 }
 
-// CODE START HERE
+input[type="submit"] {
+  cursor:pointer;
+}
