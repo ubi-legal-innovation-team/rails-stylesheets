@@ -71,11 +71,11 @@
 
 //   <div class="dropdown-toggled right YOUR_ID">
 //     <ul class="no-padding unstyle-list">
-//       <li class="text-cent">
+//       <li class="text-cent flex-cent">
 //         <span class="svg"><%= svg('ubisoft_user_black') %></span>
 //         <%= link_to "/", root_path, class: "text-left" %>
 //       </li>
-//       <li class="text-cent">
+//       <li class="text-cent flex-cent">
 //         <span class="svg"><%= svg('ubisoft_user_black') %></span>
 //         <%= link_to "/", root_path, class: "text-left" %>
 //       </li>
