@@ -17,7 +17,6 @@ Ensure you have the following gems in your Rails `Gemfile`
 ```ruby
 # Gemfile
 gem 'autoprefixer-rails'
-gem 'simple_form'
 ```
 
 In your terminal, generate SimpleForm Bootstrap config.
@@ -94,8 +93,8 @@ And the viewport in the layout
 
 // Responsive
 
-@import "responsive/alerts";
 @import "responsive/carousel";
+@import "responsive/flashes";
 @import "responsive/footer";
 @import "responsive/modals";
 @import "responsive/navbar";
