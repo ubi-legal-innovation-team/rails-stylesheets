@@ -64,21 +64,6 @@
       color:#000;
     }
   }
-  &.p-15 {
-    padding:15px;
-  }
-  &.p-25{
-    padding:25px;
-  }
-  &.p-50{
-    padding:50px;
-  }
-  &.border-10 {
-    border-radius:10px;
-  }
-  &.border-25{
-    border-radius:25px;
-  }
 }
 
 .modal-headers {
@@ -115,7 +100,7 @@
 // <span class="open-modal YOUR_ID">click to open modal</span>
 
 // <div id="YOUR_ID" class="modal-toggled">
-//   <div class="modal-container flex-col-bet-cent white p-10 border-25">
+//   <div class="modal-container flex-col-bet-cent white p-10 radius-25">
 //     <div class="modal-headers">
 //       <h1>Hello Ubisoft</h1>
 //     </div>
