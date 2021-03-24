@@ -52,8 +52,10 @@ And the viewport in the layout
 ```scss
 // app/assets/stylesheets/application.scss
 
-// Graphical variables
 // External libraries
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 // Config
 
@@ -85,6 +87,7 @@ And the viewport in the layout
 @import "helpers/flex_box";
 @import "helpers/global";
 @import "helpers/positions";
+@import "helpers/sections";
 @import "helpers/text";
 
 // Pages
