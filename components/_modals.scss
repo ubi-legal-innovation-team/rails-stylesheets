@@ -36,8 +36,6 @@
 }
 
 .modal-container {
-  width:500px;
-  height:500px;
   position: relative;
   visibility: hidden;
   opacity: 0;
@@ -64,9 +62,14 @@
       color:#000;
     }
   }
+  &.s-500 {
+    width:500px;
+    height:500px;
+  }
 }
 
 .modal-headers {
+  overflow:scroll;
   &.p-25-100 {
     padding: 25px 100px;
   }
@@ -100,7 +103,7 @@
 // <span class="open-modal YOUR_ID">click to open modal</span>
 
 // <div id="YOUR_ID" class="modal-toggled">
-//   <div class="modal-container flex-col-bet-cent white p-10 radius-25">
+//   <div class="modal-container flex-col-bet-cent white s-500 p-10 radius-25">
 //     <div class="modal-headers">
 //       <h1>Hello Ubisoft</h1>
 //     </div>
