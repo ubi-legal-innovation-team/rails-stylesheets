@@ -24,4 +24,48 @@ input[type="submit"] {
   border-radius:5px !important;
 }
 
+input[type="radio"], input[type="checkbox"] {
+  display:none;
+}
+
+input[type="radio"].circle-ux-radio + label,
+input[type="checkbox"].square-ux-checkbox + label {
+  padding: 0px 10px;
+  width: max-content;
+  font-size: 1rem;
+  color: $strong-grey;
+  cursor: pointer;
+  margin-bottom: .5rem;
+}
+input[type="checkbox"].square-ux-checkbox + label:before {
+  font-family: "Font Awesome 5 Free";
+  content:"\f0c8";
+  font-size: 1.2rem;
+  color: $strong-grey;
+  margin-right:10px;
+}
+input[type="radio"].circle-ux-radio + label:before {
+  font-family: "Font Awesome 5 Free";
+  content:"\f111";
+  font-size: 1.2rem;
+  color: $strong-grey;
+  margin-right:10px;
+}
+input[type="radio"].circle-ux-radio:checked + label,
+input[type="checkbox"].square-ux-checkbox:checked + label {
+  color: $strong-grey;
+  transition: all .2s ease-out;
+}
+input[type="checkbox"].square-ux-checkbox:checked + label:before {
+  content: "\f14a";
+  font-weight: 900;
+  color: $strong-grey;
+}
+input[type="radio"].circle-ux-radio:checked + label:before{
+  content: "\f192";
+  font-weight: 900;
+  color: $strong-grey;
+}
+
+
 form.DOM_validation-form {}
