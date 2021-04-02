@@ -160,6 +160,13 @@
   align-items:center;
 }
 
+.flex-col-cent-env {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-evenly;
+}
+
 // flex ROW WRAP
 
 .flex-row-wrap-cent {
