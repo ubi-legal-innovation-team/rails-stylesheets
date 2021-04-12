@@ -5,14 +5,17 @@
   height: 100% !important;
 }
 
+.h-content {
+  height:max-content;
+}
+
+.h-med {
+  height: 50% !important;
+}
+
 .h-vh {
   height: 100vh !important;
 }
-
-.h-500 {
-  height: 500px !important;
-}
-
 
 // Width dimension
 
@@ -35,3 +38,4 @@
 .w-quart {
   width: 25% !important;
 }
+
