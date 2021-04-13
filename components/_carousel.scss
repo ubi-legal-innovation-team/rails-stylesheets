@@ -1,33 +1,29 @@
 
 .carousel {
+  width:100%;
   height:100%;
-  width: 100%;
 
   ul.slides {
-    height:100%;
-    width:100%;
-    display:flex;
     overflow-x: hidden;
     li {
       min-width:100%;
-      height:100%;
-      padding:0 100px
+      padding:0 100px;
+      img {
+        width: 100%;
+      }
     }
   }
 
-  .carousel-right, .carousel-left {
-    cursor:pointer;
-  }
   .carousel-right {
-    top:10px;
-    right:200px;
+    top:50%;
+    right:20px;
   }
   .carousel-left {
-    top:10px;
-    left:200px;
+    top:50%;
+    left:20px;
   }
 
-  .slidesNavigation {
+  .slides-navigation {
     display: flex;
     justify-content:center;
   }
@@ -35,7 +31,7 @@
     display: none;
   }
 
-  .slidesNavigation label {
+  .slides-navigation label {
     margin: 6px;
     height: 15px;
     width: 15px;
@@ -52,14 +48,14 @@
 
 // <div class="carousel relative">
 
-//   <span class="absolute carousel-right"><%= svg('carousel_arrow_right') %></span>
-//   <span class="absolute carousel-left"><%= svg('carousel_arrow_left') %></span>
+//   <span class="absolute carousel-right pointer"><%= svg('carousel_arrow_right') %></span>
+//   <span class="absolute carousel-left pointer"><%= svg('carousel_arrow_left') %></span>
 
 //   <input type="radio" id="radio-1">
 //   <input type="radio" id="radio-2">
 
-//   <ul class="slides no-padding">
-//     <li class="radio-1 flex-col-cent-start">
+//   <ul class="slides no-padding m-0 h-max w-max flex">
+//     <li class="radio-1 flex-col-cent-start h-max">
 //       <%= svg('ubisoft_teacher_black') %>
 //       <h4>TITLE</h4>
 
@@ -68,7 +64,7 @@
 //       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tempor tincidunt.</p>
 //     </li>
 
-//     <li class="radio-2 flex-col-cent-start">
+//     <li class="radio-2 flex-col-cent-start h-max">
 //       <%= svg('ubisoft_balance_black') %>
 //       <h4>TITLE</h4>
 
@@ -79,7 +75,7 @@
 //     </li>
 //   </ul>
 
-//   <div class="slidesNavigation">
+//   <div class="slides-navigation">
 //     <label for="radio-1" class="active"></label>
 //     <label for="radio-2"></label>
 //   </div>

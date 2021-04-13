@@ -8,6 +8,14 @@ html, body {
   margin:0;
 }
 
+.break-word {
+  word-break: break-word;
+}
+
+.pointer {
+  cursor:pointer;
+}
+
 .hidden-overflow {
   overflow: hidden;
 }
