@@ -13,16 +13,9 @@
 }
 
 .modal-toggled {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index:100;
   width:100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: $modal-black;
   visibility: hidden;
   opacity: 0;
@@ -102,7 +95,7 @@
 
 // <span class="open-modal YOUR_ID">click to open modal</span>
 
-// <div id="YOUR_ID" class="modal-toggled">
+// <div id="YOUR_ID" class="modal-toggled fixed centered flex-cent">
 //   <div class="modal-container flex-col-bet-cent white s-500 p-10 radius-25">
 //     <div class="modal-headers">
 //       <h1>Hello Ubisoft</h1>
