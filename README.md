@@ -17,6 +17,7 @@ Ensure you have the following gems in your Rails `Gemfile`
 ```ruby
 # Gemfile
 gem 'autoprefixer-rails'
+gem 'font-awesome-sass'
 ```
 
 In your terminal, generate SimpleForm Bootstrap config.
