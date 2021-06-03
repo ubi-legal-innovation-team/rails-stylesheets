@@ -1,0 +1,23 @@
+ul {
+  &.unstyle-list {
+    list-style-type: none;
+  }
+  &.no-padding {
+    padding-left: 0;
+  }
+}
+
+ol {
+  &.no-padding {
+    padding-left: 0;
+  }
+}
+
+ul.alternate_rows {
+  li:nth-child(odd) {
+    background-color: $magic-grey;
+  }
+  li:nth-child(even) {
+    background-color: #fff;
+  }
+}

@@ -15,10 +15,10 @@ nav#legallab-navbar {
     color:#fff;
   }
 
-  // .legallab-menu {
+  // #legallab-menu {
   //   width: 800px;
-  //   margin: auto;
   //   ul.navbar-ul {
+  //     width: 100%;
   //     display: flex;
   //     justify-content: space-evenly;
   //     border: none;
@@ -30,7 +30,7 @@ nav#legallab-navbar {
   //   }
   // }
 
-  #user_nav, #user_notifications {
+  #user_nav_call, #user_notifications_call {
     border-radius:100%;
     padding:8px 10px;
     &.active {
@@ -38,9 +38,24 @@ nav#legallab-navbar {
     }
   }
 
-  span#notifications_count {
+  span#projects_unqueue_navbar, span#notifications_count {
     position:absolute;
     top: 0;
+    right:-12px;
+    font-size: .7rem;
+    z-index:1;
+      &.red {
+      background-color:$red;
+      color:#fff;
+      border-radius:25px;
+      padding:1px 8px 3px 8px;
+    }
+  }
+
+  span#projects_unqueue {
+    position:absolute;
+    top: -8px;
+    right:30px;
     font-size: .7rem;
       &.red {
       background-color:$red;
@@ -50,7 +65,7 @@ nav#legallab-navbar {
     }
   }
 
-  ul#notifications li {
+  ul#user_notifications li {
     &.notification {
       color:$black;
       .unread {

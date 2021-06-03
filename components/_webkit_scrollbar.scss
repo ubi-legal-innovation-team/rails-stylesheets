@@ -1,22 +1,26 @@
 
 .dropdown-toggled::-webkit-scrollbar,
+.dropdown-ajaxified::-webkit-scrollbar,
 .scrollable::-webkit-scrollbar {
   width: .25em;
 }
 
 .dropdown-toggled::-webkit-scrollbar-thumb,
-.scrollable::-webkit-scrollbar-thumb {
+.dropdown-ajaxified::-webkit-scrollbar-thumb,
+.scrollable::-webkit-scrollbar-thumb{
   background-color: $grey;
   outline: 1px solid $light-grey;
   border-radius: 25px;
 }
 
-.modal-content::-webkit-scrollbar {
+.modal-content-ajaxified::-webkit-scrollbar {
   width: .5em;
 }
 
-.modal-content::-webkit-scrollbar-thumb {
+.modal-content-ajaxified::-webkit-scrollbar-thumb {
   background-color: $grey;
   outline: 1px solid $light-grey;
   border-radius: 25px;
 }
+
+

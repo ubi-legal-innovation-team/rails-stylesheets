@@ -32,21 +32,6 @@ a {
   }
 }
 
-ul {
-  &.unstyle-list {
-    list-style-type: none;
-  }
-  &.no-padding {
-    padding-left: 0;
-  }
-}
-
-ol {
-  &.no-padding {
-    padding-left: 0;
-  }
-}
-
 .disabled {
   opacity: .5 !important;
   cursor: not-allowed !important;
@@ -104,4 +89,8 @@ ol {
 .filter {
   filter: blur(5px);
   background-color:$smooth-grey;
+}
+
+.index-1 {
+  z-index:1;
 }
