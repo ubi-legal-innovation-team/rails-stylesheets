@@ -16,8 +16,6 @@
     }
   }
 }
-
-
 @keyframes rotate-speed-360 {
   0% {
     transform-origin: center;
@@ -28,8 +26,6 @@
     transform: rotate(360deg);
   }
 }
-
-
 @keyframes rotate-slow-360 {
   0% {
     transform-origin: center;
@@ -40,7 +36,6 @@
     transform: rotate(360deg);
   }
 }
-
 
 // --------------------------------------
 // 👇👇     HTML LOADER EXAMPLE     👇👇

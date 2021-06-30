@@ -1,5 +1,4 @@
 // Ajax call clicked dropdowns
-
 .dropdown-ajaxified {
   position: absolute;
   max-height:500px;
@@ -51,17 +50,12 @@
   }
 }
 
-
-
-
 // Clicked dropdowns
-
 .open-dropdown {
   position:relative;
   cursor:pointer;
   width:max-content;
 }
-
 .dropdown-toggled {
   position: absolute;
   max-height:500px;
@@ -126,19 +120,24 @@
 //   <%= svg('bell_black') %>
 
 //   <div class="dropdown-toggled right YOUR_ID">
+//
 //     <ul class="no-padding unstyle-list">
+//
 //       <li class="text-cent">
 //         <span class="svg"><%= svg('ubisoft_user_black') %></span>
 //         <%= link_to "/", root_path, class: "text-left" %>
 //       </li>
+//
 //       <li class="text-cent">
 //         <span class="svg"><%= svg('ubisoft_user_black') %></span>
 //         <%= link_to "/", root_path, class: "text-left" %>
 //       </li>
+//
 //     </ul>
+//
 //   </div>
+//
 // </div>
-
 
 .dropdown-element {
     margin-bottom:50px;
@@ -151,7 +150,6 @@
     transition: all .1s ease-out;
   }
 }
-
 .dropdownable-svg {
   svg {
     cursor:pointer;
@@ -167,19 +165,23 @@
 // --------------------------------------
 
 // <div class="flex-col border-bottom light-grey">
+//
 //   <strong class="dropdownable-svg">
 //     Title (xx)
 //     <%= svg('dropdown_arrow_grey') %>
 //   </strong>
+//
 //   <div class="dropdown-element">
+//
 //     <div class="m-auto">
 //       <p class="mt-10">nothing to display yet ...</p>
 //     </div>
+//
 //   </div>
+//
 // </div>
 
 // Hovered dropdowns
-
 .show-hovered-dropdown {
   cursor:pointer;
   width:max-content;
@@ -190,7 +192,6 @@
     top: 25px;
   }
 }
-
 .show-hovered-dropdown-toggled {
   position: absolute;
   top: 20px;
@@ -219,12 +220,14 @@
 // --------------------------------------
 
 // <div class="show-hovered-dropdown">
+//
 //   <%= svg('ubisoft_hint_blue_20') %>
+//
 //   <div class="show-hovered-dropdown-toggled">
 //     <p class="text-cent text-white p-small">Ubisoft is a French video game development, publishing and distribution company</p>
 //   </div>
+//
 // </div>
-
 
 .slide-hovered-dropdown {
   cursor:pointer;
@@ -237,7 +240,6 @@
     transition-timing-function: none;
   }
 }
-
 .slide-hovered-dropdown-toggled {
   position: absolute;
   top:25px;
@@ -259,14 +261,16 @@
   }
 }
 
-
 // --------------------------------------
 // 👇👇    HTML DROPDOWN EXAMPLE    👇👇
 // --------------------------------------
 
 // <div class="slide-hovered-dropdown">
+//
 //   <%= svg('ubisoft_hint_electric_blue_20') %>
+//
 //   <div class="slide-hovered-dropdown-toggled">
 //     <p class="text-cent text-white p-small">Ubisoft is a French video game development, publishing and distribution company</p>
 //   </div>
+//
 // </div>

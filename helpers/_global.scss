@@ -1,29 +1,25 @@
 
-* { box-sizing: border-box }
-
+* {
+  box-sizing: border-box
+}
 html, body {
   min-height: 100vh;
   background-color: #fff;
   box-sizing: border-box;
   margin:0;
 }
-
 .break-word {
   word-break: break-word;
 }
-
 .pointer {
   cursor:pointer;
 }
-
 .hidden-overflow {
   overflow: hidden;
 }
-
 .scrollable {
   overflow-y: scroll;
 }
-
 a {
   color: $strong-black;
   text-decoration: none;
@@ -31,16 +27,13 @@ a {
     text-decoration: none
   }
 }
-
 .disabled {
   opacity: .5 !important;
   cursor: not-allowed !important;
 }
-
 .hidden {
   display:none;
 }
-
 .visible {
   visibility: visible !important;
   opacity: 1 !important;
@@ -48,7 +41,6 @@ a {
   transition-duration: .3s;
   transition-timing-function: ease-out;
 }
-
 .invisible {
   visibility: hidden !important;
   opacity: 0 !important;
@@ -56,7 +48,6 @@ a {
   transition-duration: .3s;
   transition-timing-function: ease-out;
 }
-
 .visible-without-t {
   visibility: visible !important;
   opacity: 1 !important;
@@ -64,33 +55,28 @@ a {
   transition-duration: .3s;
   transition-timing-function: ease-out;
 }
-
 .scale1 {
   transform: scale(1) !important;
   transition-property: all;
   transition-duration: .3s;
   transition-timing-function: ease-out;
 }
-
 .translateY {
   transform: translateY(0) !important;
   transition-property: all;
   transition-duration: .3s;
   transition-timing-function: ease-out;
 }
-
 .translateX {
   transform: translateX(0) !important;
   transition-property: all;
   transition-duration: .3s;
   transition-timing-function: ease-out;
 }
-
 .filter {
   filter: blur(5px);
   background-color:$smooth-grey;
 }
-
 .index-1 {
   z-index:1;
 }

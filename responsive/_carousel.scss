@@ -1,12 +1,10 @@
-
-@media(max-width:1007px){
+@media(max-width:1024px){
   .carousel-right {
     right:150px !important;
   }
   .carousel-left {
     left:150px !important;
   }
-
   .carousel {
     ul.slides {
       li {
@@ -16,7 +14,6 @@
   }
 }
 
-
 @media(max-width:640px){
   .carousel-right {
     right:10px;
@@ -24,7 +21,6 @@
   .carousel-left {
     left:10px;
   }
-
   .carousel {
     ul.slides {
       li {

@@ -12,7 +12,6 @@
   align-items:center;
   z-index:1;
 }
-
 .overlay-triggered {
   &:hover .overlay-shown {
     visibility:visible;
@@ -22,8 +21,6 @@
     transition-timing-function: ease-out;
   }
 }
-
-
 
 // --------------------------------------
 // 👇👇     HTML OVERLAY EXAMPLE     👇👇

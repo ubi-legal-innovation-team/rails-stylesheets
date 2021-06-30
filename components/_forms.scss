@@ -67,7 +67,7 @@ input[type="radio"].circle-ux-radio:checked + label:before{
   color: $strong-grey;
 }
 
-
+// Validation form
 form.DOM_validation-form {
   input[type="file"] {
     display: none;
@@ -83,7 +83,7 @@ form.DOM_validation-form {
   }
 }
 
-
+// File inputs form
 form.DOM_handle-file-input {
   input[type="file"] {
     display: none;

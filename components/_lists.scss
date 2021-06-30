@@ -6,13 +6,11 @@ ul {
     padding-left: 0;
   }
 }
-
 ol {
   &.no-padding {
     padding-left: 0;
   }
 }
-
 ul.alternate_rows {
   li:nth-child(odd) {
     background-color: $magic-grey;

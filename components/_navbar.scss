@@ -1,4 +1,3 @@
-
 nav#legallab-navbar {
   width: 100%;
   height:60px;
@@ -14,7 +13,6 @@ nav#legallab-navbar {
     align-items: center;
     color:#fff;
   }
-
   // #legallab-menu {
   //   width: 800px;
   //   ul.navbar-ul {
@@ -29,16 +27,15 @@ nav#legallab-navbar {
   //     }
   //   }
   // }
-
-  #user_nav_call, #user_notifications_call {
+  #user_nav_call, #user_notifications_call,
+  #menu_responsive_call {
     border-radius:100%;
     padding:8px 10px;
     &.active {
       background-color: $black;
     }
   }
-
-  span#projects_unqueue_navbar, span#notifications_count {
+  span#notifications_count {
     position:absolute;
     top: 0;
     right:-12px;
@@ -51,20 +48,6 @@ nav#legallab-navbar {
       padding:1px 8px 3px 8px;
     }
   }
-
-  span#projects_unqueue {
-    position:absolute;
-    top: -8px;
-    right:30px;
-    font-size: .7rem;
-      &.red {
-      background-color:$red;
-      color:#fff;
-      border-radius:25px;
-      padding:1px 8px 3px 8px;
-    }
-  }
-
   ul#user_notifications li {
     &.notification {
       color:$black;

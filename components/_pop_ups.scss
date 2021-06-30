@@ -1,10 +1,8 @@
-
 .open-pop-up {
   position:relative;
   cursor:pointer;
   width:max-content;
 }
-
 .pop-up-toggled {
   position: absolute;
   border-radius: 50%;
@@ -30,11 +28,9 @@
   &.active {
     transform: scale(1);
   }
-
   p {
     padding: 0 1.2rem;
   }
-
   .pop-up-links {
     font-size: 1.2rem;
     span.close-pop-up,
@@ -73,17 +69,25 @@
 //👇👇👇   HTML POP UP EXAMPLE   👇👇👇//
 
 // <div class="open-pop-up" id="YOUR_ID">
+
 //   <div class="flex-start-cent">
+
 //     <span class="mr-05">close</span>
 //     <%= svg('ubisoft_cross_25') %>
+
 //   </div>
 
 //   <div class="pop-up-toggled light-purple flex-col-cent text-cent right YOUR_ID">
+
 //     <p>Ubisoft is a French video game company</p>
 
 //     <div class="pop-up-links mt-20">
+
 //       <%= link_to "yes", root_path %>
 //       <span class="close-pop-up YOUR_ID">no</span>
+
 //     </div>
+
 //   </div>
+
 // </div>

@@ -1,18 +1,15 @@
 .table-scroll {
   overflow: auto;
 }
-
 table {
   width:100%;
   border-collapse: collapse;
   border-spacing: 0;
-
   td, th {
     padding:8px 12px;
     font-size:.8rem;
   }
 }
-
 tbody {
   tr:nth-child(odd) {
     background-color: $magic-grey;
@@ -27,7 +24,9 @@ tbody {
 // --------------------------------------
 
   // <div class="table-scroll">
+
   //   <table class="text-cent">
+
   //     <thead>
   //       <tr>
   //         <th>Header</th>
@@ -41,5 +40,7 @@ tbody {
   //         <td>actions</td>
   //       </tr>
   //     </tbody>
+
   //   </table>
+
   // </div>
