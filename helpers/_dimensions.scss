@@ -1,4 +1,4 @@
-// Height dimension
+// HEIGHT
 .h-max {
   height: 100% !important;
 }
@@ -18,7 +18,7 @@
   height: 500px;
 }
 
-// Width dimension
+// WIDTH
 .w-min {
   width:min-content !important;
 }
@@ -39,4 +39,10 @@
 }
 .w-600 {
   max-width:600px;
+}
+
+// SIZE
+.s-500 {
+  width:500px;
+  height:500px;
 }
