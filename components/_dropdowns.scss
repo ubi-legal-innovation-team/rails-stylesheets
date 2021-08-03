@@ -1,6 +1,8 @@
 // Ajax call clicked dropdowns
 .dropdown-ajaxified {
   position: absolute;
+  right:10px;
+  top:70px;
   max-height:500px;
   overflow-y: scroll;
   background-color: #fff;
@@ -9,20 +11,11 @@
   transition: all .1s ease-out;
   z-index:1;
   padding: 0px 40px 0px 20px;
-  &.shadow{
-    box-shadow: $soft-ml-box-shadow;
+  #user_nav, #menu_responsive {
+    width:200px;
   }
-  &.w-250 {
-    width:250px;
-  }
-  &.w-350 {
-    width:350px;
-  }
-  &.left {
-    right: 25px;
-  }
-  &.right {
-    left: 25px;
+  #user_notifications {
+    width:400px;
   }
   ul {
     display:flex;
